@@ -1,0 +1,220 @@
+@media(max-width:2000px){
+    .main_wrapper .banner-img img{
+        margin-top: 12.65rem;
+    }
+}
+
+@media(max-width:1300px){
+    .main_wrapper .banner-img img{
+        width: 500px;
+        margin-top: 16rem;
+    }
+}
+
+@media(max-width:1100px){
+    .main_wrapper .banner-img img{
+        width: 400px;
+        margin-top: 22.5rem;
+    }
+}
+@media(max-width:1100px){
+    .main_wrapper .banner-img img{
+        display: none;
+    }
+}
+@media(max-width:991px){
+    /* card 1 */
+    .main_wrapper .ft-1 {
+        background: #1BC0C0;
+        border-radius: 20px;
+        height: 250px;
+        width: 250px;
+    }
+
+
+    .main_wrapper .ft-1::before {
+        content: url(../image/layer.png);
+        position: absolute;
+        margin-top: 5.9rem;
+        margin-left: 80px;
+    }
+
+    .main_wrapper .ft-1 p {
+        color: #FFFFFF;
+        font-style: normal;
+        font-size: 30px;
+        font-weight: 500;
+        padding: 10px 10px;
+    }
+    /* card 2  */
+    .main_wrapper .ft-2 {
+        background: #FFD600;
+        border-radius: 20px;
+        height: 250px;
+        width: 250px;
+        margin-left: 6rem;
+    }
+
+
+    .main_wrapper .ft-2 img {
+        margin-top: -56px;
+        margin-left: 12px;
+    }
+
+    .main_wrapper .ft-2 p {
+        color: #FFFFFF;
+        font-style: normal;
+        font-size: 30px;
+        font-weight: 500;
+        padding: 10px 10px;
+    }
+    /* card 3 */
+    .main_wrapper .ft-3 {
+        background: #FF8ADE;
+        border-radius: 20px;
+        height: 250px;
+        width: 250px;
+        margin-left: 12rem;
+        border-radius: 20px;
+    }
+    .main_wrapper .ft-3::before {
+        content: url(../image/layer2.png);
+        position: absolute;
+        margin-top: 94px;
+        margin-left: 65px;
+    }
+    .main_wrapper .ft-3 p {
+        color: #FFFFFF;
+        font-style: normal;
+        font-size: 30px;
+        font-weight: 500;
+        padding: 10px 10px;
+    }
+
+    .features_wrapper h6{
+        margin-right: 8rem;
+    }
+}
+
+/* form  */
+@media(max-width:1190px){
+    .form_wrapper .container img{
+      margin-top: 5.3rem;
+    }
+  }
+  @media(max-width:991px){
+    .form_wrapper .container{
+      max-height: 27.6rem;
+    }
+    .form_wrapper .container img{
+      margin-top: 0;
+    }
+  }
+  
+  @media(max-width:767px){
+    .form_wrapper .container img{
+      display: none;
+    }
+    .form_wrapper h2{
+      margin-top: 4rem;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  /* search media query  */
+@media(max-width:1200px){
+    .search_wrapper button{
+      margin-top: -4rem;
+    }
+  }
+  
+  @media(max-width:991px){
+    .dropdown{
+      width: 250px;
+      height: 45px;
+      margin-left: 3rem;
+    }
+    .dropdown2{
+      width: 250px;
+      height: 45px;
+      margin-left: 3rem;
+    }.dropdown3{
+      width: 250px;
+      height: 45px;
+      margin-left: 3rem;
+      margin-top: 1rem;
+    }
+    .search_wrapper button{
+      margin-top: 1rem;
+      width: 9rem;
+      height: 45px;
+      border-radius: 2rem;
+      margin-right: 5rem;
+    }
+  }
+  
+  @media(max-width:767px){
+    .dropdown{
+        z-index: 3;
+        margin-left: 8rem;
+      }
+    .dropdown2{
+      width: 250px;
+      height: 45px;
+      margin-left: 8rem;
+      z-index: 2;
+    }
+    .dropdown3{
+      width: 250px;
+      height: 45px;
+      margin-left: 8rem;
+    }
+    .search_wrapper button{
+      width: 9rem;
+      height: 45px;
+      border-radius: 2rem;
+      margin-right: 11rem;
+      margin-top: 0rem;
+    }
+    /* product wrapper  */
+    .product_wrapper .product {
+        margin-top: 0rem;
+    }
+    .product_wrapper figure{
+        margin: 0;
+    }
+  }
+   @media(max-width:400px){
+     .search_wrapper button{
+      margin-top: 7rem;
+      width: 9rem;
+      height: 45px;
+      border-radius: 2rem;
+      margin-right: 8rem;
+    }
+  }
+  
+  @media(max-width:290px){
+    .search_wrapper button{
+      margin-right: -4rem;
+      width: 5rem;
+      height: 30px;
+   }
+  }
+
+  /* banner wrapper  */
+@media(max-width:580px){
+    .main_wrapper .card-title-text {
+        margin-left: 12rem;
+    }
+    .main_wrapper .ft-1 {
+        margin-left: 10rem;
+    }
+    .main_wrapper .ft-2 {
+        margin-left: 10rem;
+    }
+    .main_wrapper .ft-3 {
+        margin-left: 10rem;
+    }
+}
