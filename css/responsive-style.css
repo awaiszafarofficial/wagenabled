@@ -1,6 +1,6 @@
 @media(max-width:2000px) {
   .main_wrapper .banner-img img {
-    margin-top: 11.15rem;
+    margin-top: 12.65rem;
   }
 }
 
@@ -611,9 +611,4 @@
     border-radius: 2rem;
     margin-right: 4rem;
   }
-  .product_wrapper .container {
-    max-width: 100%;
-    height: auto;
-    margin-top: 6rem;
-}
 }
